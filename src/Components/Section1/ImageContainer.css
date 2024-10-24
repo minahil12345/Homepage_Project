@@ -1,0 +1,12 @@
+.red-row {
+    position: relative;
+    display: flex;
+    height: 50%;
+    width: 100%;
+  }
+  
+  .OuterEclipse, .InnerEclipse, .InnerInnerEclipse, .Image {
+    position: absolute;
+    /* Add your specific styling and positioning here */
+  }
+  

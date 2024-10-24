@@ -1,0 +1,52 @@
+/* src/Header.css */
+.header {
+    width: 100%; /* Full width of the screen */
+    height: 160px; /* Height of the logo */
+    position: relative;
+  }
+
+
+  @font-face {
+    font-family: 'Bw Nista Grotesk DEMO';
+    src: url('../BwNistaGroteskDEMORegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'FONTSPRING DEMO - Geon Expanded Black';
+    src: url('../Fontspring-DEMO-geon-black.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  .logo {
+    position: absolute;
+    top: 52px; /* Y position */
+    left: 90px; /* X position */
+    width: 138px; /* Width */
+    height: 108px; /* Height */
+  }
+  
+
+.menu {
+  position: absolute;
+  top: 90px; /* Y position */
+  left: 642px; /* X position=502 */
+  height: 15px; /* Height of the menu */
+  width: 536px; /* Width of the menu=436 */
+  display: flex;
+  justify-content: space-between; /* Space out menu items evenly */
+  align-items: center; /* Center items vertically */
+  text-align: center;
+}
+
+.menu-item {
+  color: white; /* Text color */
+  font-family: 'Bw Nista Grotesk DEMO', sans-serif; /* Font family */
+  font-size: 18px; /* Font size */
+  font-weight: 400; /* Font weight */
+  line-height: 21.6px; /* Line height */
+  text-decoration: none; /* Remove underline */
+}

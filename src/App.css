@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+
+@font-face {
+  font-family: 'Bw Nista Grotesk DEMO';
+  src: url('../src/BwNistaGroteskDEMORegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FONTSPRING DEMO - Geon Expanded Black';
+  src: url('../src/Fontspring-DEMO-geon-black.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* App.css */
+.gradient-background {
+  background: linear-gradient(to bottom, #B327FF, #24CCF4, #050419);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}

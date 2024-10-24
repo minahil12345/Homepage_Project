@@ -1,0 +1,354 @@
+/* src/Components/Section1.css */
+.content-section {
+  display: flex;
+  height: 800px; /* Height of the section */
+  width: 100%; /* Full width of the page */
+  position: relative;
+  z-index: 1;
+  
+}
+
+@font-face {
+  font-family: 'Bw Nista Grotesk DEMO';
+  src: url('../BwNistaGroteskDEMORegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FONTSPRING DEMO - Geon Expanded Black';
+  src: url('../Fontspring-DEMO-geon-black.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.left-column {
+  display: flex;
+  flex-direction: column; /* Stack rows vertically */
+  width: 70%; /* 75% of the page width */
+  height: 100%; /* Full height of the section */
+  }
+
+.green-row {
+  position: relative;
+  display: flex;
+  height: 50%; /* Half of the height of the green column */
+  width: 100%; /* Full width of the green column */
+  /* background-color: green; */
+}
+
+.red-row {
+  position: relative;
+  display: flex;
+  height: 50%; /* Half of the height of the green column */
+  width: 100%; /* Full width of the green column */  
+  /* background-color: red; */
+}
+
+.green-inner-column {
+  width: 50%; /* 50% of the width of the green row */
+  height: 100%; /* Full height of the green row */
+  /* align-items:flex-start; */
+  /* background-color: green; */
+  }
+
+.pink-row {
+  display: flex;
+  height: 33%; /* One third of the height of the green-inner-column */
+  width: 100%; /* Full width of the green-inner-column */
+  /* background-color: pink; */
+}
+
+.pink-inner-column {
+  width: 25%; /* 25% of the width of the pink row */
+  display: flex;
+  align-items:end; /* Vertically center the text */
+  padding-left: 90px;
+  margin-top: 110px;
+  /* background-color: pink; */
+}
+
+.purple-inner-column {
+  width: 75%; /* 75% of the width of the pink row */
+  /* background-color: purple; */
+  }
+
+.orange-row {
+  height: 33%; /* One third of the height of the green-inner-column */
+  width: 100%; /* Full width of the green-inner-column */
+  padding-left: 90px;
+  margin-top: 80px;
+  /* background-color: orange; */
+}
+.green-inner-inner-column {
+  height: 33%; /* One third of the height of the green-inner-column */
+  width: 100%; /* Full width of the green-inner-column */
+  padding-left: 90px;
+  margin-top: 80px;
+  /* background-color: green; */
+  }
+
+.yellow-inner-column {
+  position: relative;
+  width: 50%; /* 50% of the width of the green row */
+  height: 100%; /* Full height of the green row */
+  align-items: center;
+  justify-content:center;
+  /* background-color: yellow; */
+}
+
+.software-tech-text {
+  margin-top: 25px;
+  margin-left: 5%;
+  width: 255.96px;
+  height: 15px;
+  font-family: 'Bw Nista Grotesk DEMO', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 21.6px;
+  text-align: center;
+  color: white;
+}
+
+.description-SandT-text {
+  margin-top: 25px;
+  margin-left: 5%;
+  width: 421.26px;
+  height: 45.93px;
+  font-family: 'Bw Nista Grotesk DEMO', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+  color: white;
+  opacity: 0.8;
+}
+
+.transparent-button {
+  margin-top: 100px;
+  /* margin-left: 25%;  */
+  width: 223px;
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 3px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.transparent-button-text {
+  font-family: 'Bw Nista Grotesk DEMO', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.arrow-icon {
+  margin-left: 8px; 
+}
+
+
+.settings-icon {
+  margin-left: 8px;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 18px;
+}
+
+.right-column {
+  margin-left: -150px;
+  width: 30%; /* 25% of the page width */
+  height: 70%; /* Full height of the section */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* Equally space the rows vertically */
+}
+
+.right-column-row {
+  display: flex;
+  justify-content: flex-start; /* Keep text aligned to the left */
+  align-items: center; /* Center text vertically within each row */
+  color: white;
+  width: 100%;
+  padding-left: 0px; /* Remove left padding to move text further left */
+}
+
+.text-container {
+  color: white;
+  max-width: 100%; /* Ensure the text container takes full width */
+  justify-content: flex-start; /* Align text container to the start (left-aligned) */
+  padding-left: 0px; /* Remove left padding to move text further left */
+}
+
+.heading {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 33.1px;
+  text-align: left;
+  /* background-color: green; */
+}
+
+.underline-svg {
+  display: block;
+}
+
+.subheading {
+  font-family: 'Bw Nista Grotesk DEMO', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  /* background-color: darkorchid; */
+}
+
+.description {
+  font-family: 'Bw Nista Grotesk DEMO', sans-serif;
+  width: 265px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: left;
+  margin-top: 8px; /* Space between subheading and description */
+  word-wrap: break-word; /* Ensure long words break and wrap to the next line */
+  overflow-wrap: break-word; /* Ensure text wraps within the box */
+  white-space: normal; /* Ensure text wraps within the box */
+  /* background-color: darkslateblue; */
+}
+
+.symbol-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: left;
+}
+
+
+.wecreatefuture {
+  font-family: 'Bw Nista Grotesk DEMO', sans-serif;
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 115px;
+  text-align: center;
+  color: white;
+}
+
+.symbol1 {
+  position: absolute;
+  width: 189px;
+  height: 189px;
+  top: 545px; /* Adjust as necessary */
+  left: 1400px; /*Adjust as necessary*/
+  border: 1px solid transparent; /* Adjust border as needed */
+  opacity: 1; /* Make sure logo is visible */
+}
+
+.symbol2 {
+  position: absolute;
+  width: 113px;
+  height: 113px;
+  top: 582px;
+  left: 1435px;
+  border: 1px solid transparent; /* Adjust border as needed */
+  opacity: 1; /* Make sure logo is visible */
+}
+
+.symbol3 {
+  position: absolute;
+  width: 167.48px;
+  height: 167.31px;
+  top: 560px;
+  left: 1410px;
+  border: 1px solid transparent; /* Adjust border as needed */
+  opacity: 1; /* Make sure logo is visible */
+}
+
+.symbol4 {
+  position: absolute;
+  width: 100px;
+  height: 23.98px;
+  top: 700px;
+  left: 1450px;
+  border: 1px solid transparent; /* Adjust border as needed */
+  opacity: 1; /* Make sure logo is visible */
+}
+.OuterEclipse {
+  position: absolute;
+  width: 1060px;
+  height: 363px;
+  top: 315px;
+  left: 168px;
+  border-radius: 70px 0px 0px 0px;
+  border: none; /* Remove border if not needed */
+  z-index: 2; /* Ensure it is beneath other images if needed */
+  opacity: 1; /* Ensure it is visible */
+}
+
+/* Position and size of the InnerEclipse image */
+.InnerEclipse {
+  position: absolute;
+  width: 944px;
+  height: 363px;
+  top: 315px;
+  left: 225px;
+  border-radius: 70px 0px 0px 0px;
+  border: none; /* Remove border if not needed */
+  z-index: 3; /* Ensure it is above OuterEclipse but below InnerInnerEclipse */
+  opacity: 1; /* Ensure it is visible */
+}
+
+/* Position and size of the InnerInnerEclipse image */
+.InnerInnerEclipse {
+  position: absolute;
+  width: 841.45px;
+  height: 363px;
+  top: 315px;
+  left: 280px;
+  border-radius: 70px 0px 0px 0px;
+  border: none; /* Remove border if not needed */
+  z-index: 4; /* Ensure it is above InnerEclipse */
+  opacity: 1; /* Ensure it is visible */
+}
+
+/* Position and size of the Picture image */
+.Image {
+  position: absolute;
+  width: 726px;
+  height: 556px;
+  top: 123px;
+  left: 322px;
+  border: none; /* Remove border if not needed */
+  z-index: 5; /* Ensure it is above all other images */
+  opacity: 1; /* Ensure it is visible */
+}
+
+.future-text {
+  position: absolute;
+  width: 427px;
+  height: 160px;
+  top: 210px;
+  left: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-family: 'Bw Nista Grotesk DEMO', sans-serif;
+  font-weight: 400;
+  line-height: 185px;
+  font-size: 98px; /* Adjust font size as needed */
+  font-weight: bold;
+  background: linear-gradient(to right, #29CCFD, #B228FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  box-shadow: 0px 4px 25px 0px #00000033;
+  opacity: 1;
+}

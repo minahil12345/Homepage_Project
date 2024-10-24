@@ -1,0 +1,236 @@
+.section6 {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+  }
+
+  @font-face {
+    font-family: 'Bw Nista Grotesk DEMO';
+    src: url('../BwNistaGroteskDEMORegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'FONTSPRING DEMO - Geon Expanded Black';
+    src: url('../Fontspring-DEMO-geon-black.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+    
+  .row61 {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+  }
+
+  .text-container-61 {
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+  }
+  .approach-text {
+    font-family: 'FONTSPRING DEMO - Geon Expanded Black', sans-serif;
+    font-size: 88px;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;
+    background: linear-gradient(to right, #B228FF, #29CCFD);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .our-text {
+    font-family: 'Bw Nista Grotesk DEMO', sans-serif;
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 95px;
+    text-align: center;
+    color: #ffffff; 
+  }
+
+  .row62 {
+    width: 927px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 90px;
+    margin-top: 100px;
+    margin-left: 20%;
+    background-color:transparent; /* Transparent background */
+  }
+
+  .text-content-62 {
+    font-family: 'Bw Nista Grotesk DEMO', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: white; /* White text color */
+    width: 100%;
+  }
+
+  .information-row {
+    width: 1640px;
+    height: 249px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 90px 0 90px; 
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid transparent;
+    padding: 20px;
+   }
+
+   .information-row:hover {
+    background: linear-gradient(
+      to bottom right,
+      rgba(179, 38, 255, 0.2) 20%, /* Top-left shade */
+      rgba(255, 255, 255, 0.05) 40%, /* Mid gradient */
+      rgba(46, 196, 254, 0.2) 80% /* Bottom-right shade */
+    );
+    border-color: white;/* Border becomes white on hover */
+  }
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    align-items: center;
+    margin-left: 180px;
+
+}
+
+.symbol {
+    background-color: transparent;
+    display: flex;
+    width: 86px;
+    height: 86px;
+    
+}
+
+.right-side {
+    border-radius: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.experience-and-aesthetics {
+    font-family: 'Bw Nista Grotesk DEMO', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+
+}
+
+.exp {
+    font-family: 'Bw Nista Grotesk DEMO', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 90px;
+    background-color: initial; /* Initial background color */
+    transition: background-color 0.5s ease;
+  }
+  
+  .column {
+    display: flex;
+    height: 250px;
+  }
+
+  .icon-column {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .icon {
+    width: 56px;
+    height: 56px;
+  }
+  
+  .content-column {
+    width: 39%;
+    background-color: transparent;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+    
+  .content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    /* margin: 5px 0; */
+  }
+  .content-row:hover {
+    background: linear-gradient(to bottom, #23D2FD, #B228FF);
+  }
+  
+  .user-pic {
+    width: 15%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: -90px;
+  }
+  
+  
+  .user-dp {
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+  }
+  
+  .user-info {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .user-name {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .user-rating {
+    font-size: 16px;
+    text-align: left;
+    color: gold;
+  }
+  
+  .user-review {
+    font-size: 18px;
+    margin-left: -20px;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+  }

@@ -1,0 +1,169 @@
+/* src/Home.css */
+.home-container {
+    background-color: #050419;
+    color: white; /* Optional: Change text color for better visibility */
+    height: 100%; /* Full viewport height */
+    width: calc(100vw - (100vw - 100%));
+    display: flex;
+    flex-direction: column; /* To stack Header and other content vertically */
+    align-items: center; /* Center horizontally */
+    position: relative; /* To position the elements absolutely */
+    }
+
+.spacer {
+  height: 50px; /* Height of the spacer */
+  width: 100%; /* Full width of the container */
+}
+
+.spacer80 {
+    height: 210px; /* Height of the spacer */
+    width: 100%; /* Full width of the container */
+  }
+
+
+  @font-face {
+    font-family: 'Bw Nista Grotesk DEMO';
+    src: url('../BwNistaGroteskDEMORegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'FONTSPRING DEMO - Geon Expanded Black';
+    src: url('../Fontspring-DEMO-geon-black.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
+  
+.eclipse1 {
+  position: absolute;
+  top: -231px;    /*X position= -201*/   
+  left: 1350px;   /*Y position= 1032*/
+  width: 755px;
+  height: 755px;
+  background-color: #B327FF;
+  border-radius: 50%; /* Makes the div an ellipse */
+  filter: blur(300px); /* Adjust this value to match Figma's Layer Blur effect */
+  opacity: 70%;
+  z-index: 0;
+  }
+
+.eclipse2 {
+    position: absolute;
+    width: 755px;
+    height: 728.96px;
+    top: 450.04px;
+    left: -435px;
+    background-color: #24CCF4;
+    border-radius: 50%;
+    opacity: 0.7;
+    filter: blur(220px); 
+    z-index: 0;
+  }
+
+   
+.eclipse3 {
+    position: absolute;
+    top: 982px;    /*X position= -201*/   
+    left: 1250px;   /*Y position= 1032*/
+    width: 855px;
+    height: 855px;
+    background-color: #B327FF;
+    border-radius: 50%; /* Makes the div an ellipse */
+    filter: blur(300px); /* Adjust this value to match Figma's Layer Blur effect */
+    opacity: 70%;
+    z-index: 0;
+  }
+
+  .eclipse4 {
+    position: absolute;
+    width: 755px;
+    height: 728.96px;
+    top: 1400px;
+    left: -435px;
+    background-color: #24CCF4;
+    border-radius: 50%;
+    opacity: 70%;
+    filter: blur(220px); /* Adjust the blur radius as needed */
+    z-index: 0;
+  }
+  
+  .eclipse5 {
+    position: absolute;
+    top: 2400px;    /*X position= -201*/   
+    left: 1190px;   /*Y position= 1032*/
+    width: 855px;
+    height: 855px;
+    background-color: #B327FF;
+    border-radius: 50%; /* Makes the div an ellipse */
+    filter: blur(300px); /* Adjust this value to match Figma's Layer Blur effect */
+    opacity: 70%;
+    z-index: 0;
+  }
+
+  .eclipse6 {
+    position: absolute;
+    width: 955px;
+    height: 928.96px;
+    top: 2700px;
+    left: -685px;
+    background-color: #24CCF4;
+    border-radius: 50%;
+    opacity: 70%;
+    filter: blur(220px); /* Adjust the blur radius as needed */
+    z-index: 0;
+  }
+
+  .eclipse7 {
+    position: absolute;
+    top: 3800px;    /*X position= -201*/   
+    left: 1190px;   /*Y position= 1032*/
+    width: 855px;
+    height: 855px;
+    background-color: #B327FF;
+    border-radius: 50%; /* Makes the div an ellipse */
+    filter: blur(300px); /* Adjust this value to match Figma's Layer Blur effect */
+    opacity: 70%;
+    z-index: 0;
+  }
+
+  .eclipse8 {
+    position: absolute;
+    width: 955px;
+    height: 928.96px;
+    top: 4445px;
+    left: -485px;
+    background-color: #24CCF4;
+    border-radius: 50%;
+    opacity: 70%;
+    filter: blur(220px); /* Adjust the blur radius as needed */
+    z-index: 0;
+  }
+
+  .eclipse9 {
+    position: absolute;
+    top: 5060px;    /*X position= -201*/   
+    left: 1190px;   /*Y position= 1032*/
+    width: 855px;
+    height: 855px;
+    background-color: #B327FF;
+    border-radius: 50%; /* Makes the div an ellipse */
+    filter: blur(300px); /* Adjust this value to match Figma's Layer Blur effect */
+    opacity: 70%;
+    z-index: 0;
+    }
+    
+    .eclipse10 {
+      position: absolute;
+      width: 955px;
+      height: 928.96px;
+      top: 5700px;
+      left: -685px;
+      background-color: #24CCF4;
+      border-radius: 50%;
+      opacity: 70%;
+      filter: blur(220px); /* Adjust the blur radius as needed */
+      z-index: 0;
+    }

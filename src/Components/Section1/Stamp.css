@@ -1,0 +1,9 @@
+.symbol-container {
+    position: relative;
+  }
+  
+  .symbol1, .symbol2, .symbol3, .symbol4 {
+    position: absolute;
+    /* Add your specific styling and positioning here */
+  }
+  
