@@ -38,7 +38,7 @@ const Section1 = () => {
               <span className="wecreatefuture">CREATE</span>
             </div>
             <div className="green-inner-inner-column">
-              <span className="future-text">FUTURE</span>
+              <span className="future-text">FUTURE </span>
             </div>
           </div>
           <div className="yellow-inner-column">
